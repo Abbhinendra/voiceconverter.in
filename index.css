@@ -1,0 +1,457 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: rgb(24, 24, 89);
+}
+
+::-webkit-scrollbar {
+    width: 1px;
+    height: 1px;
+    background-color: rgb(24, 24, 89);
+    border-radius: 26px;
+}
+
+nav {
+    display: flex;
+    padding: 12px;
+    background-color: rgb(177, 32, 177);
+    position: sticky;
+    top: 0;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 16px;
+    font-size: 1.2rem;
+    font-weight: 900;
+    cursor: pointer;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-brands {
+    font-size: 2.6rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 46px;
+    padding: 12px;
+}
+
+.text {
+    resize: none;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background-color: rgb(255, 0, 51);
+    color: white;
+    padding: 16px;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+.text-center {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    font-size: 2.8rem;
+    font-weight: 800;
+}
+
+.main1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main1 select {
+    width: 38vw;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: 800;
+    border-radius: 26px;
+    background-color: rgb(253, 3, 53);
+    cursor: pointer;
+    color: white;
+
+
+}
+
+.main1 button {
+    padding: 12px;
+    font-size: 18px;
+    font-weight: 800;
+    border-radius: 26px;
+    background-color: rgb(253, 3, 53);
+    outline: none;
+    border: none;
+    width: 14vw;
+    color: white;
+    margin-left: 7%;
+    cursor: pointer;
+
+}
+
+@media screen and (max-width:846px) {
+    .main1 button {
+        padding: 12px;
+        font-size: 18px;
+        font-weight: 800;
+        border-radius: 26px;
+        background-color: rgb(253, 3, 53);
+        outline: none;
+        border: none;
+        width: 24vw;
+        color: white;
+        margin-left: 7%;
+        cursor: pointer;
+
+    }
+
+    .main1 select {
+        width: 54vw;
+        padding: 12px;
+        font-size: 18px;
+        font-weight: 800;
+        border-radius: 26px;
+        background-color: rgb(253, 3, 53);
+        cursor: pointer;
+        color: white;
+
+
+    }
+
+}
+
+@media screen and (max-width:582px) {
+    .main1 button {
+        padding: 12px;
+        font-size: 18px;
+        font-weight: 800;
+        border-radius: 26px;
+        background-color: rgb(253, 3, 53);
+        outline: none;
+        border: none;
+        width: 26vw;
+        color: white;
+        margin-left: 7%;
+        cursor: pointer;
+
+    }
+
+    .main1 select {
+        width: 56vw;
+        padding: 12px;
+        font-size: 18px;
+        font-weight: 800;
+        border-radius: 26px;
+        background-color: rgb(253, 3, 53);
+        cursor: pointer;
+        color: white;
+
+
+    }
+
+    .text-center {
+        font-size: 2.2rem;
+    }
+}
+
+
+@media screen and (max-width:582px) {
+    .main1 button {
+        padding: 12px;
+        font-size: 18px;
+        font-weight: 800;
+        border-radius: 26px;
+        background-color: rgb(253, 3, 53);
+        outline: none;
+        border: none;
+        width: 28vw;
+        color: white;
+        margin-left: 7%;
+        cursor: pointer;
+
+    }
+
+    .main1 select {
+        width: 58vw;
+        padding: 12px;
+        font-size: 18px;
+        font-weight: 800;
+        border-radius: 26px;
+        background-color: rgb(253, 3, 53);
+        cursor: pointer;
+        color: white;
+
+
+    }
+
+    .text-center {
+        font-size: 1.8rem;
+    }
+}
+
+
+
+@media screen and (max-width:382px) {
+    .main1 button {
+        padding: 10px;
+        font-size: 16px;
+        font-weight: 700;
+        border-radius: 26px;
+        background-color: rgb(253, 3, 53);
+        outline: none;
+        border: none;
+        width: 28vw;
+        color: white;
+        margin-left: 7%;
+        cursor: pointer;
+
+    }
+
+    .main1 select {
+        width: 58vw;
+        padding: 10px;
+        font-size: 16px;
+        font-weight: 700;
+        border-radius: 26px;
+        background-color: rgb(253, 3, 53);
+        cursor: pointer;
+        color: white;
+
+
+    }
+
+    .text-center {
+        font-size: 1.8rem;
+    }
+}
+
+
+
+@media screen and (max-width:354px) {
+    .main1 button {
+        padding: 10px;
+        font-size: 16px;
+        font-weight: 700;
+        border-radius: 26px;
+        background-color: rgb(253, 3, 53);
+        outline: none;
+        border: none;
+        width: 28vw;
+        color: white;
+        margin-left: 7%;
+        cursor: pointer;
+
+    }
+
+    .main1 select {
+        width: 58vw;
+        padding: 10px;
+        font-size: 16px;
+        font-weight: 700;
+        border-radius: 26px;
+        background-color: rgb(253, 3, 53);
+        cursor: pointer;
+        color: white;
+
+
+    }
+
+    .text-center {
+        font-size: 1.6rem;
+    }
+}
+
+
+
+@media screen and (max-width:332px) {
+    .main1 button {
+        padding: 12px;
+        font-size: 12px;
+        font-weight: 600;
+        border-radius: 26px;
+        background-color: rgb(253, 3, 53);
+        outline: none;
+        border: none;
+        width: 27vw;
+        color: white;
+        margin-left: 7%;
+        cursor: pointer;
+
+    }
+
+    .main1 select {
+        width: 54vw;
+        padding: 10px;
+        font-size: 16px;
+        font-weight: 700;
+        border-radius: 26px;
+        background-color: rgb(253, 3, 53);
+        cursor: pointer;
+        color: white;
+
+
+    }
+
+    .text-center {
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (max-width:300px) {
+    .main1 button {
+        padding: 10px;
+        font-size: 10px;
+        font-weight: 400;
+        border-radius: 26px;
+        background-color: rgb(253, 3, 53);
+        outline: none;
+        border: none;
+        width: 27vw;
+        color: white;
+        margin-left: 7%;
+        cursor: pointer;
+
+    }
+
+    .main1 select {
+        width: 54vw;
+        padding: 8px;
+        font-size: 16px;
+        font-weight: 700;
+        border-radius: 26px;
+        background-color: rgb(253, 3, 53);
+        cursor: pointer;
+        color: white;
+
+
+    }
+
+    .text-center {
+        font-size: 1.2rem;
+    }
+}
+
+nav ul li input,
+button {
+    padding: 7px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+nav ul li button {
+    background-color: rgb(225, 15, 57);
+    cursor: pointer;
+    margin: 0 12px;
+    color: white;
+}
+
+.bars {
+
+    font-size: 2rem;
+    font-weight: 900;
+    cursor: pointer;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+
+    nav ul {
+        display: none;
+    }
+
+    .bars {
+        display: flex;
+    }
+
+    nav ul.add {
+        display: flex;
+        position: fixed;
+        top: 40px;
+        left: 0;
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        height: 190px;
+        background-color: rgb(177, 32, 177);
+    }
+}
+
+@media screen and (max-width: 386px) {
+
+    nav ul {
+        display: none;
+    }
+
+    .bars {
+        display: flex;
+    }
+
+    nav ul.add {
+        display: flex;
+        position: fixed;
+        top: 40px;
+        left: 0;
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        height: 220px;
+        background-color: rgb(177, 32, 177);
+    }
+
+    nav ul li input,
+    button {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 12px 0;
+    }
+
+    nav ul li button {
+        margin-left: 30%;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .main1 button {
+        padding: 8px;
+        border-radius: 26px;
+        background-color: rgb(253, 3, 53);
+        outline: none;
+        border: none;
+        color: white;
+        margin-left: 7%;
+        cursor: pointer;
+    }
+    
+}
+    
